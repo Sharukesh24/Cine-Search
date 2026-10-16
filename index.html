@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineSearch - Movie Explorer 🍿</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>Cine Search 🎬</h1>
+            <p>Explore your favorite movies, series, and ratings!</p>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for movies (e.g., Batman, Avengers)...">
+                <button id="searchBtn">Search</button>
+            </div>
+        </header>
+
+        <div id="statusMessage" class="status-message">Type a movie name to start searching!</div>
+        <main id="movieGrid" class="movie-grid"></main>
+    </div>
+    <!-- Movie Details Modal -->
+<div id="movieModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <div id="modalDetails">
+      
+    </div>
+  </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
